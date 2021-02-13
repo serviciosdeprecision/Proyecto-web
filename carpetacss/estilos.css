@@ -1,0 +1,1087 @@
+﻿
+/* Propiedades generales */
+*{
+	
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+	
+}
+
+/* Propiedades del documento raiz */
+
+html{    
+
+
+
+
+}
+
+/* Propiedades del cuerpo */
+
+body {
+	
+   font-size: 62.5%;
+   font-family:  verdana, Geneva, arial, Helvetica, Tahoma, Trebuchet MS, sans-serif;
+   text-align: justify;
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f10.jpg");	
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+	    
+  
+  
+}
+
+a p{
+	  font-weight: bold;
+}
+
+.sofwares{
+	
+		
+display:block;
+width:500px;
+margin-left:auto;
+margin-right:auto;
+	
+}
+ 
+/* speudo clase para enlaces */
+
+a:link{
+	
+	color:FFFF;
+	text-decoration: none;
+
+	
+}
+
+a:visited{
+	color:;
+	
+	
+}
+
+a:active {
+	
+  color: blue;
+}
+	
+	
+
+
+/* Menu del header*/
+
+.menusuperior{
+	font-size: 1.5em;
+	line-height: 1.45;
+}
+
+/* Propiedades del menu lateral izquierdo o primera columna*/
+
+.menulateral{
+	
+    font-size:1.5em ;
+    line-height: 1.45;
+	
+  	
+}
+
+
+/* Propiedades de las listas*/
+
+
+ul, ol {
+	
+	margin-left:30px;
+	margin-bottom:5px;
+}
+
+
+
+li{
+	font-size: 1.5em;
+	padding-top:5px;
+	
+}
+
+li li{
+	font-size: 1em;
+	
+	
+}
+
+td{
+	
+	font-size: 1.5em;
+	
+}
+
+/* Propiedades de los parrafos*/
+
+p{
+	
+	 font-size:1.5em ;
+	 line-height: 1.45;
+	 padding-top:5px;
+	 padding-bottom:5px;
+	
+	
+}
+
+/* Propiedades de los encabezados */
+
+h1,h2,h3,h4,h5,h6{
+	
+  text-align: left;  
+  line-height: 1.45;
+  
+  
+  
+}
+	
+
+	
+h1{
+	
+		
+	 font-size:3.6em ;
+	
+	
+	
+}
+
+h2{
+	
+	font-size:3em ;
+	
+}
+
+h3{
+	
+	font-size:2.4em ;
+	
+}
+
+h4{
+	
+	font-size:2em ;
+	
+}
+
+h5{
+	
+	font-size:1.8em;
+	
+}
+
+h6{
+	
+	font-size:1.6em ;
+	
+}
+
+}
+
+
+
+/* Propiedades de la segunda columna */
+
+main{
+	
+	 
+	 
+		
+}
+
+/* Propiedades del h1 de main*/
+
+main h1{
+	
+	 text-align: center;
+	 
+		
+}
+
+/* Propiedades de la tercera columna */
+
+aside{
+	
+	
+	
+  
+	
+}
+
+/* Propiedades del pie de pagina */
+
+footer{
+	
+
+	
+	
+}
+
+/* Mi informacion */
+
+address{
+   font-size:  1.1em;
+   text-align: center;	
+   font-family: Times New Roman, Times, serif, verdana, arial;
+   
+}
+
+/* Propiedades del header*/
+
+header{
+	
+   position:fixed;
+   left:0px;
+   top:0px;
+   right:0px;
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f3.jpg");	
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   z-index:999999;
+   	
+	
+	
+}
+
+.sticky{
+	
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 161px;
+	
+}
+
+textarea, input{
+	
+	font-size:  1.5em;
+}
+
+
+.desbordamiento{
+	
+	 overflow: scroll;
+	
+}
+
+
+
+
+/* Ajuste del contenido principal y del header*/
+
+.rellenotop{
+	
+  padding-top:161px;	
+	
+}
+
+
+
+/* Propiedades del logo del header*/
+
+.logo{
+
+     width:120px;
+	 height:100px;
+	 float: left;
+	 margin-top:10px;
+	 margin-bottom:10px;
+	 margin-left:20px;
+	 margin-right:10px;
+	
+}
+
+/* Para centrar el titulo del header*/
+
+.center{
+	
+	width:600px;
+	margin:auto;
+	text-align: center;
+	margin-top:5px;
+}
+
+/* Para centrar el h1 del header*/
+
+.center  h1 {
+	
+	margin:auto;
+	text-align: center;
+	font-size:3.8em ;  
+	   
+	
+}
+
+/* Para centrar el h2 del header*/
+
+.center  h2 {
+	
+	margin:auto;
+	text-align: center;
+	font-size:3.2em ;  
+	
+}
+
+.centrar{
+	
+	margin:auto;
+	text-align: center;
+	
+}
+
+
+/* Propiedades de las imagenes */
+
+img{
+	
+	margin-top:15px;
+	margin-bottom:15px;
+	
+	
+	
+	
+}
+
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+.shared-panel{
+	overflow: auto;
+}
+.shared-panel span{
+	margin: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.shared {
+	display: inline-block;
+	width: 30px; 
+	height: 30px;
+	margin: 5px 0; 
+	padding: 0; 
+        /* Recurso incluido en la descarga del ejemplo */
+	background: url("shared.png") no-repeat; 
+	float: left;
+	margin-right: 5px; 
+	cursor: pointer;
+	border-radius: 50%;
+}
+.shared:hover{
+	opacity: 0.7;
+}
+.shared.gp {background-position: 0px 0px; background-color: #E62B34;}
+.shared.tt {background-position: 0px -30px; background-color: #43BDF0;}
+.shared.ce {background-position: 0px -60px; background-color: #8A898D;}
+.shared.wa {background-position: 0px -90px; background-color: #0dc143;}
+.shared.fb {background-position: 0px -120px; background-color: #6081C4;}
+
+.st2{
+   border-radius: 0;
+}
+.st3{
+   border-radius: 5px;
+}
+
+/* Pantalla de monitor actual de escritorio*/
+
+@media screen and (max-width:1920px){
+	
+	
+	
+}
+
+
+/* Pantalla de monitor actual de lapto */
+
+@media screen and (max-width:1366px){
+	
+	
+}
+
+
+
+@media screen and (max-width:1000px) and (min-width:731px){
+
+.margenp{
+	
+  padding-left:10px;
+	
+	
+}
+.center h1 {
+	
+	   font-size:3em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:2.5em;
+	   
+	  
+	
+}
+
+ h1{
+	
+font-size:2.8em;	
+	
+	
+}
+
+ h2{
+	
+font-size:2.3em;	
+	
+	
+}
+
+h3 {
+	
+	font-size:2.1em;
+	
+}
+
+h6{
+	
+	font-size:1.5em;
+	
+}
+
+.center{
+	
+	width:500px;
+    margin-left:240px;
+	
+}
+
+
+.rellenotop{
+	
+	padding-top:151px;
+	
+}
+
+.logo{
+
+     width:110px;
+	 height:90px;
+	
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:730px) and (min-width:601px){
+
+.margenp{
+	
+	padding-left:5px;
+	
+	
+}
+.center h1 {
+	
+	   font-size:2.5em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:2em;
+	   
+	   
+	
+}
+
+ h1{
+	
+font-size:2.3em;	
+	
+	
+}
+
+ h2{
+	
+font-size:1.8em;	
+	
+	
+}
+
+ h3{
+	
+font-size:1.7em;	
+	
+	
+}
+
+h6{
+	
+	font-size:1.4em;
+	
+}
+
+.center{
+	
+	width:450px;
+	margin-left:160px;
+
+	
+}
+
+.rellenotop{
+	
+	padding-top:141px;
+	
+}
+
+
+.logo{
+
+     width:95px;
+	 height:80px;
+	
+}
+
+.menulateral{
+	
+    font-size:1.3em ;
+
+
+}
+
+.menusuperior{
+	font-size:  1.3em;
+
+	
+
+
+}
+
+
+
+td{
+	
+	font-size: 1.3em;
+	
+}
+
+
+
+}
+
+@media screen and (max-width:600px) and (min-width:461px){
+
+
+ol, ul {
+	
+	margin-left:5px;
+	padding-left:5px;
+}
+
+
+
+.home{
+	
+  margin-top:4px;
+	
+}
+
+.center h1 {
+	
+	   font-size:2.3em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:1.8em;
+	   
+	   
+	   
+	
+}
+
+ h1{
+	
+font-size:2.2em;	
+	
+	
+}
+
+ h2{
+	
+font-size:1.9em;	
+	
+	
+}
+
+ h3{
+	
+font-size:1.6em;	
+	
+	
+}
+
+h6{
+	
+	font-size:1.4em;
+	
+}
+
+.center{
+	
+	
+	margin-left:-120px;
+
+	
+}
+
+.rellenotop{
+	
+	padding-top:140px;
+	
+}
+
+.logo{
+
+     width:85px;
+	 height:70px;
+	
+}
+
+.menulateral{
+	
+    font-size:1.3em ;
+
+
+}
+
+.menusuperior{
+	font-size:  1.3em;
+	
+
+
+}
+
+td{
+	
+	font-size: 1.3em;
+	
+}
+	
+}
+
+@media screen and (max-width:460px){
+
+ol, ul {
+	
+	margin-left:5px;
+	padding-left:5px;
+}
+
+
+.home{
+	
+  margin-top:4px;
+	
+}
+
+.center h1 {
+	
+	   font-size:2.1em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:1.6em;
+	   
+	   
+	
+}
+
+ h1{
+	
+font-size:2.1em;	
+	
+	
+}
+
+ h2{
+	
+font-size:1.8em;	
+	
+	
+}
+
+ h3{
+	
+font-size:1.7em;	
+	
+	
+}
+
+
+
+h6{
+	
+	font-size:1.4em;
+	
+}
+
+.center{
+	
+	width:630px;
+	margin-left:-200px;
+}
+
+.rellenotop{
+	
+	padding-top:125px;
+	
+}
+	
+
+.logo{
+
+     width:70px;
+	 height:55px;
+	
+}
+
+
+.menulateral{
+	
+    font-size:1.3em ;
+
+
+}
+
+.menusuperior{
+	font-size:  1.3em;
+	
+
+
+}
+
+td{
+	
+	font-size: 1.3em;
+	
+}
+
+}
+
+
+@media screen and (max-width:415px){
+
+ol, ul {
+	
+	margin-left:5px;
+	padding-left:5px;
+}
+
+
+
+.home{
+	
+  margin-top:4px;
+	
+}
+
+.center h1 {
+	
+	   font-size:1.8em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:1.4em;
+	   
+	   
+	
+}
+
+
+
+.center{
+	
+	width:600px;
+	margin-left:-250px;
+	
+}
+
+.rellenotop{
+	
+	padding-top:121px;
+	
+}
+	
+
+.logo{
+
+     width:60px;
+	 height:50px;
+	
+}
+
+td{
+	
+	font-size: 1.3em;
+	
+}
+
+}
+
+
+@media screen and (max-width:330px){
+
+ol, ul {
+	
+	margin-left:5px;
+	padding-left:5px;
+}
+
+
+
+.home{
+	
+  margin-top:4px;
+	
+}
+
+
+.center h1 {
+	
+	   font-size:1.6em;
+	   
+	   
+	
+}
+
+.center  h2 {
+	
+	   font-size:1.2em;
+	   
+	   
+	
+}
+
+
+
+.center{
+	
+	width:500px;
+	margin-left:-250px;
+	
+}
+
+.rellenotop{
+	
+	padding-top:119px;
+
+}
+	
+
+.logo{
+
+     width:60px;
+	 height:50px;
+	  margin-top:10px;
+	 margin-bottom:10px;
+	 margin-left:10px;
+	 margin-right:10px;
+	
+}
+
+td{
+	
+	font-size: 1.3em;
+	
+}
+
+}
+
+
+@media screen and (max-width:240px){
+	
+	ol, ul {
+	
+	margin-left:5px;
+	padding-left:5px;
+}
+
+
+
+	.home{
+	
+  margin-top:4px;
+	
+}
+
+
+	
+	.center h1 {
+	
+	   font-size:1.2em;
+	   
+	   
+	
+    }
+
+    .center  h2 {
+	
+	   font-size:1em;
+	   
+	   
+	
+    }
+	
+	
+ h1{
+	
+font-size:1.6em;	
+	
+	
+}
+
+h2{
+	
+font-size:1.4em;	
+	
+	
+}
+
+ h3{
+
+font-size:1.2em;		
+	
+}
+
+
+
+ h6{
+	
+	font-size:1em;
+ }
+	
+
+    ul{
+		
+		font-size: 1.3em;
+	
+    }
+
+
+  p{
+	
+	 font-size: 1.3em;
+}
+
+textarea, input{
+	
+	font-size:  1.3em;
+}
+
+
+li{
+	font-size: 1.3em;
+	padding-top:5px;
+	
+}
+
+li li{
+	font-size: 1em;
+	
+	
+}
+
+td{
+	
+	font-size: 1.2em;
+	
+}
+
+
+	.center{
+	
+	width:400px;
+	margin-left:-200px;
+	
+}
+
+
+    .rellenotop{
+	
+	padding-top:121px;
+	
+	
+	
+}
+
+    .logo{
+
+     width:60px;
+	 height:50px;
+	  margin-top:10px;
+	 margin-bottom:10px;
+	 margin-left:10px;
+	 margin-right:10px;
+	
+}
+
+
+
+.menulateral{
+	
+    font-size:1.2em ;	
+	
+}
+
+.menusuperior{
+	font-size:  1.2em;
+	
+
+
+}
+
+
+}
