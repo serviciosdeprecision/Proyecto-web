@@ -35,6 +35,25 @@ body {
   
 }
 
+/* Propiedades del header*/
+
+header{
+	
+   position:fixed;
+   left:0px;
+   top:0px;
+   right:0px;
+   background-color:#FFFFFF;
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f3.jpg");	
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   z-index:999999;
+   	
+	
+	
+}
+
 a p{
 	  font-weight: bold;
 }
@@ -234,23 +253,7 @@ address{
    
 }
 
-/* Propiedades del header*/
 
-header{
-	
-   position:fixed;
-   left:0px;
-   top:0px;
-   right:0px;
-   background-image: url("../imagenes de fondo/fondodelcuerpo/f3.jpg");	
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   z-index:999999;
-   	
-	
-	
-}
 
 .sticky{
 	
