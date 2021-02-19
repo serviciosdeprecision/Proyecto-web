@@ -1,1 +1,1 @@
-Este es un proyecto web con fnes educativos
+Pagina web con fines educativos para la enseñanza de mecatronica y tecnologia en general
