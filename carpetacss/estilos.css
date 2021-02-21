@@ -582,7 +582,12 @@ td{
 
 @media screen and (max-width:600px) and (min-width:461px){
 
-
+body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
+	
 ol, ul {
 	
 	margin-left:5px;
@@ -693,6 +698,12 @@ td{
 
 @media screen and (max-width:460px){
 
+	body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
+	
 ol, ul {
 	
 	margin-left:5px;
@@ -804,6 +815,12 @@ td{
 
 @media screen and (max-width:415px){
 
+	body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
+	
 ol, ul {
 	
 	margin-left:5px;
@@ -874,6 +891,12 @@ td{
 
 @media screen and (max-width:330px){
 
+	body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
+	
 ol, ul {
 	
 	margin-left:5px;
@@ -948,6 +971,12 @@ td{
 }
 
 @media screen and (max-width:265px){
+
+	body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
 	
 /* Propiedades de los iconos del header para pantallas pequeñas*/
 
@@ -962,6 +991,11 @@ td{
 
 @media screen and (max-width:240px){
 	
+body {
+   
+   background-image: url("../imagenes de fondo/fondodelcuerpo/f11.jpg");	
+  
+}
 	ol, ul {
 	
 	margin-left:5px;
@@ -1122,8 +1156,3 @@ td{
 }
 
 
-@media screen and (max-width:200px){
-	
-	
-	
-}
